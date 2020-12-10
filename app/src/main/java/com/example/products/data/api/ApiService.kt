@@ -4,7 +4,7 @@ import com.example.products.data.model.ProductCategory
 import retrofit2.http.GET
 
 interface ApiService {
-    @GET
+    @GET(".")
     suspend fun fetchProducts(): List<ProductCategory>
 
 
